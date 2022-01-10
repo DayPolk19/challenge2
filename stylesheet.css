@@ -1,0 +1,327 @@
+
+
+header {
+    background-color: #505050;
+    display: flex;
+    justify-content: space-between; 
+    padding: 20px 35px 20px 0px;
+  }
+
+  header h1 {
+    margin: 0;
+    font-size: 36px;
+    background-color: turquoise;
+    padding-top: 15px;
+    width: 200px;
+    font-stretch: semi-expanded;
+    color: steelblue;
+  }
+
+  header a {
+    text-decoration: none;
+    color: steelblue;
+  }
+  
+  header nav {
+    margin: 7px 0;
+  }
+  
+  header nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+  }
+  
+.border-bottom {
+    border-bottom: 2px solid steelblue;
+    margin-right: 10px;
+}
+
+  header nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  /* End of header and Navigation */
+
+  #hero {
+      background-image: url('../Challenge2/assets/images/background-hero.jpg');
+      background-size: cover;
+      display: flex;
+      justify-content: flex-end;
+      flex-wrap: wrap;
+      background-attachment: fixed;
+      background-position: 80%;
+        
+  }
+
+  
+
+  section {
+      padding: 10px 10px 0 90px;
+  }
+
+  .content-header {
+    color: steelblue;
+    margin-right: 5px;
+    font-size: 35px;
+  }
+
+
+
+.about-me{
+  display: flex;
+  align-items:flex-start;
+  width: 70%;
+  justify-content: center;
+  
+}
+
+.about-title{
+  text-align: center;
+  font-size: 25px;
+  color: steelblue;
+  padding-right: 30px;
+}
+
+.text {
+  padding-left: 30px;
+}
+
+.work{
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+  width: 70%;
+}
+
+.work-title {
+  color: steelblue;
+  font-size: 25px;
+  padding-right: 37px;
+}
+
+.work-right{
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 30px;
+}
+
+.work-right img{
+  border: 4px solid turquoise;
+}
+
+.work1 h2{
+  position:relative;
+  top: 80%;
+  color: steelblue;
+  background-color: turquoise;
+  width: 27%;
+}
+
+.work1:hover .work1-img{
+  opacity: 0.3;
+}
+
+
+.work2 h2{
+  position:relative;
+  top: 80%;
+  color: steelblue;
+  background-color: turquoise;
+  width: 15%;
+}
+
+.work2:hover .work2-img{
+  opacity: 0.3;
+}
+
+.work3 h2{
+  position:relative;
+  top: 80%;
+  color: steelblue;
+  background-color: turquoise;
+  width: 15%;
+  margin-top: -30px;
+}
+
+.work3:hover .work3-img{
+  opacity: 0.3;
+}
+
+.work4 h2{
+  position:relative;
+  top: 80%;
+  color: steelblue;
+  background-color: turquoise;
+  width: 15%;
+  margin-top: -30px;
+}
+
+.work4:hover .work4-img{
+  opacity: 0.3;
+}
+
+.work5 h2{
+  position:relative;
+  top: 80%;
+  color: steelblue;
+  background-color: turquoise;
+  width: 15%;
+  margin-top: -30px;
+}
+
+.work5:hover .work5-img{
+  opacity: 0.3;
+}
+
+.contact-me{
+  display: flex;
+  width: 70%;
+  margin-left: -2.6%;
+  
+}
+
+.contact-title {
+  font-size: 20px;
+  color: steelblue;
+  padding-right: 30px;
+}
+
+.contact-right{
+  font-size: 23px;
+  
+}
+.contact-right ul{
+  display: flex;
+  color: steelblue;
+  list-style: none;
+  justify-content: space-between;
+  
+}
+
+.contact-right ul li a {
+  text-decoration: none;
+  color: steelblue;
+}
+
+
+.left-border{
+  border-left: 3px solid steelblue;
+
+} 
+ 
+  body{
+      margin: 0;
+      background-color: whitesmoke;
+  }
+
+  footer{
+    text-align: center;
+    color: steelblue;
+    font-size: 35px;
+  }
+
+ 
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 980px) {
+  header {
+    padding-bottom: 0;
+    position:relative;
+    width: 100%;
+    
+  }
+
+  header h1 {
+    width: 17%;
+    text-align: left;
+    font-size: 30px;
+  }
+
+  header nav ul {
+    margin-top: 0;
+  }
+
+  header nav ul li a {
+    font-size: 30px;
+  }
+
+  #hero{
+    width: 105%;
+  }
+
+  .work-right{
+    padding-left: 30px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .contact-title{
+    margin-left: -20.7px;
+  }
+}
+
+
+
+/* MEDIA QUERY FOR TABLETS AND SMALLER 
+@media screen and (max-width: 768px) {
+  section {
+    padding: 30px 15px;
+  }
+
+  .step h3 {
+    flex: 1 100%;
+    text-align: center;
+  }
+
+  .step-info {
+    flex: 2 100%;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .step-img {
+    flex: 0 32%;
+    margin-right: 0;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  .step-text {
+    flex: 100%;  
+  }
+
+  .trainer-bio h3, .trainer-bio h4 {
+    display: block;
+  }
+}
+*/
+
+/* Media queries
+@media screen and (max-width: 575px) {
+  .er {
+    width: 100%;
+  }
+
+  #About-me {
+    width: 5px;
+  }
+
+  .intro p {
+    width: 100%;
+  }
+
+  .trainer {
+    flex: 0 100%;
+  }
+
+  .contact-info {
+    text-align: center;
+  }
+
+  .contact-info > * {
+    flex: 0 100%;
+  }
+}
+*/
